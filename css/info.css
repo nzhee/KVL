@@ -71,6 +71,7 @@ input[type="tel"] {
     font-weight: normal;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: small;
 }
 
 .checkbox-label input[type="checkbox"] {
