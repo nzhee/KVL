@@ -1,0 +1,99 @@
+
+/* 중앙 정렬 */
+.center-container1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+}
+   /* 흰색 직사각형 스타일 */
+.upper-rectangle {
+    width: 260px;
+    height: 290px;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 황금 도토리 이미지 */
+.img-style {
+    margin-top: 10px;
+    width: 192px;
+    height: 139px;
+}
+
+/* 폰트 설정 */
+.Mainfont-style {
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-weight: 800;
+    color: #333333;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.font-style {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+    text-align: center;
+}
+/* 텍스트 하이라이트 */
+.highlight {
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-weight: 800;
+    color: #A55E17;
+    text-align: center;
+}
+   /* 흰색 직사각형 스타일 */
+.down-rectangle {
+    width: 260px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 수령정보 입력하기 버튼 */
+.writeInfo-button {
+    padding: 10px 20px; /* 버튼 내부 패딩을 설정합니다. */
+    background-color: black; /* 버튼의 배경색을 설정합니다. */
+    color: white; /* 버튼 텍스트 색상을 설정합니다. */
+    border: none; /* 버튼 테두리를 제거합니다. */
+    border-radius: 10px; /* 버튼 모서리 라운딩 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경합니다. */
+    width: 85%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 공유하기 버튼 */
+.share-button {
+    padding: 10px 20px; /* 버튼 내부 패딩을 설정합니다. */
+    background-color: white; /* 버튼의 배경색을 설정합니다. */
+    color: #565656; /* 버튼 텍스트 색상을 설정합니다. */
+    border:none;
+    border-radius: 10px; /* 버튼 모서리 라운딩
+    cursor: pointer; /* 마우스 커서를 포인터로 변경합니다. */
+    width: 100%;
+    height: 40px;
+    font-family: 'Pretendard';
+    font-size: 16px;
+}
