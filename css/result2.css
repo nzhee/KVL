@@ -1,6 +1,6 @@
 body {
     font-family: 'Pretendard', Arial, sans-serif;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     padding: 0;
 }
 
@@ -8,7 +8,7 @@ body {
     width: 100%;
     background-color: white;
     max-width: calc(100% * 9 / 10);
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 10px;
     padding: 10px;
     padding-top: 20px;
